@@ -1,0 +1,25 @@
+
+.titlediv {
+    background-color: black;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+}
+
+.title {
+    position: center;
+}
+.name {
+    text-emphasis-color: white;
+}
+
+.bodydiv {
+
+    background-color: chocolate;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+
+.image {
+    float: left;
+}
