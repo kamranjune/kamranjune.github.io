@@ -73,10 +73,10 @@ psychic.userChoiceText.textContent = "Your Guesses So Far: " + psychic.userGuess
         });
         
 }
-        // if more guesses left
+        // if more gueyyyysses left
         else if (computerChoice !== userGuess) {
 
-            
+            //change  x += 1    x = x + 1   =+
             psychic.guessesLeft--;    
         }
 
