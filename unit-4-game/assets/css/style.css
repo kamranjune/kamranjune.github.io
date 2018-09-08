@@ -1,0 +1,144 @@
+body {
+    background-image: url("https://vignette.wikia.nocookie.net/dcmovies/images/7/73/Superman_and_Lex_Luthor_%28The_Batman%29.jpg/revision/latest?cb=20130423154420");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+#title-box {
+    background-color: orange;
+    color: white;
+    font-size: 14pt;
+    font-weight:  bold;
+    height: 60px;
+    width: 200px;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+
+.speech-bubble {
+	position: relative;
+	background: beige;
+    border-radius: .4em;
+    color: green;
+    font-weight: bold;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 100px solid transparent;
+    border-top-color:beige;
+    color: green;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -50px;
+	margin-bottom: -100px;
+}
+
+#computer-choice-box {
+    background-color:green;
+    color: black;
+    font-weight: bold;
+    font-size: 16pt;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+#wins-text {
+    background-color: turquoise;
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+#losses-text {
+    background-color: turquoise;
+    color: black;
+    font-weight: bold;
+    font-size:14pt;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+#total-score-box {
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size: 16pt;
+    height: 100px;
+    width: 200px;
+    margin: 15px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+      width: 960px;
+      background-size: 100%;
+    }
+    .main-container {
+      width: 960px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 768px;
+      background-size: 75%;
+    }
+  
+    .main-container {
+      width: 768px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 640px;
+      background-size: 50%;
+    }
+
+    .main-container {
+      width: 640px;
+    }
+    
+  
+  }
