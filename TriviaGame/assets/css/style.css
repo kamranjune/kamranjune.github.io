@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#countdown-timer-div {
+    font-size: 20px;
+    background-color: red;
+}
+#questions-div {
+    font-size: 20px;
+}
+
+#results-div {
+    font-size: 20px;
+    background-color: lightgreen;
+}
+#question-one-div {
+    background-color:lightgoldenrodyellow;
+}
+#question-two-div {
+    background-color:lightblue;
+}
+#question-three-div {
+    background-color:lightgoldenrodyellow;
+}   
+#question-four-div {
+    background-color:lightblue;
+}
+
+#questions-div, #countdown-timer-div {
+
+    display:  none;
+
+
+}

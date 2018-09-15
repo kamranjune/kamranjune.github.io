@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>  
+        <img id="ucsdextension" src="assets/images/ucsdextension.jpg">
+        <div><h1>Trivia:  Correctly Guess Bootcamp Questions Kamran Missed!</h1></div> 
+                <br>
+   
+        <div id="start-div"><button name="start-button"><img src="assets/images/windows95start.jpg"></button></div>
+        <div id="countdown-timer-div"><p> Time Remaining: <span id="countdown-timer">60 </span> Seconds</p></div>
+        <div id="questions-div">
+                <div id="question-one-div">1.  Once a new div has been coded, it can be attached to an element on the page with the ____Javascript method.
+                        <form id="question-one-form" action="">
+                                <input type="radio" name="question-one-answer" value="setElement">setElement<br>
+                                <input type="radio" name="question-one-answer" value="appendChild">appendChild<br>
+
+                        </form>
+                </div>
+                <div id="question-two-div">2.  The _____ jQuery method can be used to place attributes on HTML elements
+                        <form id="question-two-form" action="">
+                                <input type="radio" name="question-two-answer" value="attr">attr<br>
+                                <input type="radio" name="question-two-answer" value="append">append<br>
+
+                        </form>
+                </div>
+                <div id="question-three-div">3.  We can give classes to elements using the _______ jQuery method
+                        <form id="question-three-form" action="">
+                                <input type="radio" name="question-three-answer" value="setClass">setClass<br>
+                                <input type="radio" name="question-three-answer" value="addClass">addClass<br>
+
+                        </form>
+
+                </div>
+                <div id="question-four-div">4.  A button with an id of myButton can be set to have its displayed name show as "SuperButton" with the following jQuery code:
+                        <form id="question-four-form" action="">
+                                <input type="radio" name="question-four-answer" value="name">$("#myButton").name("SuperButton")<br>
+                                <input type="radio" name="question-four-answer" value="text">$("#myButton").text("SuperButton")<br>
+                        </form>
+
+                </div>
+        
+                <div id="done-div"><button name="done-button"><img src="assets/images/windows95done.png"></button></div>
+                <p>
+                <div id="results-div"></div>
+        </div>
+
+<script src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
