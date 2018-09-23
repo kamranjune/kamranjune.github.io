@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/giftasticbackground.jpg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .container {
+      width: 960px;
+      background-size: 100%;
+    }
+    .main-container {
+      width: 960px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 768px;
+      background-size: 75%;
+    }
+  
+    .main-container {
+      width: 768px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 640px;
+      background-size: 50%;
+    }
+
+    .main-container {
+      width: 640px;
+    }
+    
+  
+  }
