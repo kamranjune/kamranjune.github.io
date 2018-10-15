@@ -324,3 +324,39 @@ footer {
 
 }
 
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 960px;
+  }
+  .main-container {
+    width: 960px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    background-color: yellow;
+  }
+
+  .main-container {
+    width: 768px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 640px;
+    background-color: red;
+  }
+  header {position: static;}
+
+  .main-container {
+    width: 640px;
+  }
+  
+
+}
