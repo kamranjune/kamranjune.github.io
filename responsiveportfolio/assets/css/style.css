@@ -273,7 +273,7 @@ header {
 
 }
 
-footer {
+#domo {
   max-width: 960px;
 
  
@@ -342,7 +342,7 @@ footer {
   .container {
     width: 640px;
   }
-  
+
   header {position: static;}
 
   .main-container {
