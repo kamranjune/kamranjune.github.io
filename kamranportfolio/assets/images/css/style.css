@@ -22,6 +22,17 @@ body {
 
 /* general */
 
+#dancing-robot{
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+
+}
+
 
 #robot {
 
@@ -229,6 +240,7 @@ input[type=submit] {
 }
 
 
+
 header {
   animation: header 5s 1;
   -moz-animation: header 5s 1;
@@ -310,9 +322,7 @@ footer {
     left: 0px;
 }
 
-
-
-
+}
 
 
 @media screen and (max-width: 980px) {
@@ -328,7 +338,7 @@ footer {
 @media screen and (max-width: 768px) {
   .container {
     width: 768px;
-    background-color: yellow;
+    
   }
 
   .main-container {
@@ -340,7 +350,7 @@ footer {
 @media screen and (max-width: 640px) {
   .container {
     width: 640px;
-    background-color: red;
+    
   }
   header {position: static;}
 
