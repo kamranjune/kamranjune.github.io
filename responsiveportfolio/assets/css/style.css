@@ -326,7 +326,7 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .container {
     width: 768px;
     
@@ -338,7 +338,7 @@ footer {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
   .container {
     width: 640px;
   }
@@ -347,6 +347,7 @@ footer {
 
   .main-container {
     width: 640px;
+    background-color: whitesmoke;
   }
   
 
