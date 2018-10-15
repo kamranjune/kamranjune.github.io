@@ -36,6 +36,10 @@ body {
   font-size: xx-large;
 
 }
+#dancing-robot {
+  width: 30%;
+  height: 30%;
+}
 
 #domo {
 
@@ -313,7 +317,42 @@ footer {
 }
 
 
+@media screen and (max-width: 980px) {
+  .container {
+    width: 960px;
+  }
+  .main-container {
+    width: 960px;
+  }
+}
 
+
+@media screen and (max-width: 780px) {
+  .container {
+    width: 768px;
+    
+  }
+
+  .main-container {
+    width: 768px;
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+  .container {
+    width: 640px;
+  }
+  
+  header {position: static;}
+
+  .main-container {
+    width: 640px;
+    background-color:red;
+  }
+  
+
+}
 
 
 
