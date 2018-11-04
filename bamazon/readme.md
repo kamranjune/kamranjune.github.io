@@ -24,11 +24,11 @@ and price are shown as instructed.
 ![BAMazon](https://kamranjune.github.io/bamazon/images/bamazon.gif) 
 
 
-*1st Time:  1 MacBook Air (Option 2) is purchased.   Quantity is reduced by one and total cost of $2500 is shown.
+* 1st Time:  1 MacBook Air (Option 2) is purchased.   Quantity is reduced by one and total cost of $2500 is shown.
 
-*2nd Time:  99 Remaining MacBook Airs are purchased.  Quantity is reduced to zero and total cost of $$$$$$$ is shown.
+* 2nd Time:  99 Remaining MacBook Airs are purchased.  Quantity is reduced to zero and total cost of $$$$$$$ is shown.
 
-*3rd Time:  1 MacBook Air is attempted to be purchased and a response of insufficent quantity is shown.
+* 3rd Time:  1 MacBook Air is attempted to be purchased and a response of insufficent quantity is shown.
 
 
 
