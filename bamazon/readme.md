@@ -16,8 +16,6 @@ the old adage, "An API/Module etc is only as good as its Docs!"
 Screenshots of bamazonCustomer.js running with nodemon calling MySQL on Port 3306, the item_id, product_name, 
 and price are shown as instructed.
 
-![Image of MySQL](https://kamranjune.github.io/bamazon/images/mysql.png) 
-
 
 *  MySQL Database & Table Created with 11 Products Inserted including 2 different types of Handlebars
 ![Image of MySQL](https://kamranjune.github.io/bamazon/images/mysql.png) 
