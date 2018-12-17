@@ -1,7 +1,7 @@
 var crystal = {
     //As the girl said in Gone with the Wind, "I declare!":
     "audioLuthor" : new Audio ('assets/audio/evillaugh.wav'),
-    "visualSetInterval" : setInterval(function(){ $("body").css({"background-image": "url('https://vignette.wikia.nocookie.net/dcmovies/images/7/73/Superman_and_Lex_Luthor_%28The_Batman%29.jpg/revision/latest?cb=20130423154420'"});}, 1000),
+    "visualSetInterval" : setInterval(function(){ $(".container").css({"background-image": "url('./assets/images/supermanluthorbackground.jpg'"});}, 1000),
     "audioSuperman":  new Audio ('assets/audio/win.ogg'),
     "wins" : 0,
     "losses" : 0,
@@ -68,7 +68,7 @@ var crystal = {
             this.winsText.textContent = "Superman " + this.wins;
             this.audioSuperman.play();
             this.startNewGame();
-            $("body").css({"background-image": "url('https://static.tvtropes.org/pmwiki/pub/images/breakingthebonds_4686.jpg'"});
+            $(".container").css({"background-image": "url('https://static.tvtropes.org/pmwiki/pub/images/breakingthebonds_4686.jpg'"});
             this.visualSetInterval();
             
            
