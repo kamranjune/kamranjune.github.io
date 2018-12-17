@@ -1,8 +1,14 @@
-body {
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.container {
+    background-repeat: no-repeat;
     background-image: url("../images/supermanluthorbackground.jpg");
     background-size: 1000px;
-    background-repeat: no-repeat;
-}
+  }
 
 #title-box {
     background-color: orange;
