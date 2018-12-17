@@ -106,7 +106,7 @@ font-size: medium;
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  spacin
+  
 }
 
 
@@ -180,7 +180,7 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #red;
+  color: red;
   text-align: center;
   background: white;
   border-bottom: 0;
@@ -315,8 +315,9 @@ footer {
     transform: rotate(-360deg);
     left: 0px;
 }
+}
 
-
+/* 
 @media screen and (max-width: 980px) {
   .container {
     width: 960px;
@@ -354,5 +355,64 @@ footer {
 
 }
 
+@media screen and (max-width: 680px) {
+  .container {
+    width: 640px;
+  }
+  
+  header {position: static;}
+
+  .main-container {
+    width: 640px;
+    background-color:red;
+  }
+  
+
+}
 
 
+@media screen and (max-width: 360px) {
+  .container {
+    width: 320px;
+  }
+  
+  header {position: static;}
+
+  .main-container {
+    width: 320px;
+    background-color:red;
+  }
+  
+
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 290px;
+  }
+  
+  header {position: static;}
+
+  .main-container {
+    width: 290px;
+    background-color:red;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 200px) {
+  .container {
+    width: 160px;
+  }
+  
+  header {position: static;}
+
+  .main-container {
+    width: 160px;
+    background-color:red;
+  } 
+  
+
+}*/
